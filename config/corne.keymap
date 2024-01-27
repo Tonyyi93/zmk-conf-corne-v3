@@ -1,7 +1,7 @@
 
-#include <dt-bindings/zmk/rgb.h>
 /*
  * Copyright (c) 2020 The ZMK Contributors
+ include <dt-bindings/zmk/rgb.h>
  *
  * SPDX-License-Identifier: MIT
  */
