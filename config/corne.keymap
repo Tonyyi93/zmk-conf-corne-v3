@@ -11,7 +11,7 @@
 #include <dt-bindings/led/led.h>
 
 &led_strip {
-    chain-length = <27>;
+    chain-length = <42>;
 };
 / {
         behaviors {
@@ -25,7 +25,7 @@
             bindings = <&kp>, <&kp>;
           }; 
         };
-        chosen {
+        chosen {y
                 zmk,underglow = &led_strip;
         };
 
