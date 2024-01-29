@@ -24,6 +24,9 @@
             bindings = <&kp>, <&kp>;
           }; 
         };
+        chosen {
+                zmk,underglow = &led_strip;
+        };
 
         keymap {
                 compatible = "zmk,keymap";
@@ -70,7 +73,5 @@
                         >;
                 };
         };
-     chosen {
-        zmk,underglow = &led_strip;
-    }
+  
 };
