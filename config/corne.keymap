@@ -62,9 +62,9 @@
 
         layer_above {
             // -----------------------------------------------------------------------------------------
-            // |RGB_TOG|  F1  |  F2  |  F3  |  F4  |  F5 |            |  F6  |  F7  |  F8  |  F9  |  F10  |   |
-            // |       | Prev | Next | Vol - | Vol + | Play/Pause |   |      | LFT | DWN |  UP | RGT |     |  HOME   |
-            // | BTCLR | BT1 | BT2 | BT3 | BT4 | BT5 |   |            |     |     |     |     |     |   END  |
+            // | RGB_TOG |  F1  |  F2  |  F3  |  F4  |  F5 |            |  F6  |  F7  |  F8  |  F9  |  F10  |   |
+            // |         | Prev | Next | Vol - | Vol + | Play/Pause |   |      | LFT | DWN |  UP | RGT |     |  HOME   |
+            // |  BTCLR  | BT1 | BT2 | BT3 | BT4 | BT5 |   |            |     |     |     |     |     |   END  |
             //                    |     |     |    |                  |     |     |     |
 
             bindings = <
