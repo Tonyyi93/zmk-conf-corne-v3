@@ -1,25 +1,4 @@
 
-
-Skip to main content
-ZMK Logo
-ZMK Firmware
-Docs
-Blog
-Power Profiler
-Keymap Upgrader
-GitHub
-
-Keymap Upgrader
-Some behaviors, key codes, and other features have been renamed to be more consistent with each other. This tool will upgrade most deprecated features to their replacements.
-
-Paste the contents of a .keymap file below. Then, hover your mouse over the upgraded keymap and click the Copy button in the upper-right corner to copy it to your clipboard.
-
-Lines that have been modified in the upgraded keymap will be highlighted.
-
-WARNING
-The upgrader does not handle key codes inside a #define or a behavior creation macro such as ZMK_MACRO(), so you will need to update those manually using this list of deprecated codes and replacements.
-
-
 /*
  * Copyright (c) 2020 The ZMK Contributors
  *
