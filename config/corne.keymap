@@ -13,55 +13,6 @@
 
 &led_strip { chain-length = <42>; };
 / {
-        macros {
-        screenshot: screenshot {
-            label = "screenshot";
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings
-                = <&macro_press &kp LGUI &kp LSHFT>
-                , <&macro_tap &kp NUMBER_3>
-                , <&macro_release &kp LGUI &kp LSHFT>
-                , <&macro_tap &kp LEFT_ARROW>
-                ;
-        };
-        screenshot1: screenshot1 {
-            label = "screenshot1";
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings
-                = <&macro_press &kp LGUI &kp LSHFT>
-                , <&macro_tap &kp NUMBER_3>
-                , <&macro_release &kp LGUI &kp LSHFT>
-                , <&macro_tap &kp RIGHT_ARROW>
-                ;
-        };
-        screenshot_mac: screenshot_mac {
-            label = "screenshot_mac";
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings
-                = <&macro_press &kp LGUI &kp LSHFT>
-                , <&macro_tap &kp NUMBER_5>
-                , <&macro_release &kp LGUI &kp LSHFT>
-                , <&macro_tap &kp RETURN>
-                , <&macro_tap &kp RIGHT_ARROW>
-                ;
-        };
-        screenshot_mac1: screenshot_mac1 {
-            label = "screenshot_mac1";
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings
-                = <&macro_press &kp LGUI &kp LSHFT>
-                , <&macro_tap &kp NUMBER_5>
-                , <&macro_release &kp LGUI &kp LSHFT>
-                , <&macro_tap &kp RETURN>
-                , <&macro_tap &kp LEFT_ARROW>
-                ;
-        };
-    };
-
     chosen { zmk,underglow = &led_strip; };
     behaviors {
         td0: tap_dance_0 {
@@ -93,7 +44,7 @@
             label = "TAP_DANCE_3";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
-            bindings = <&kp Q>, <&mo 3>, <&screenshot_mac1>;
+            bindings = <&kp Q>, <&mo 3>;
         };  
 
     };
