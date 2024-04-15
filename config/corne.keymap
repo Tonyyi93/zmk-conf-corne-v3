@@ -12,7 +12,6 @@
 #include <dt-bindings/zmk/rgb.h>
 
 &led_strip { chain-length = <42>; };
-
 / {
     behaviors {
         tp: tap_preferred {
